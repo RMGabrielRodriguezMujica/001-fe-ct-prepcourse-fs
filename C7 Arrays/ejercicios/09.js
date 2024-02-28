@@ -4,10 +4,15 @@ function obtenerElementoAleatorio(array) {
    // Tu código:
 
 
-   var aleatorio = Math.random(1, array.length)
+// var aleatorio = Math.floor(Math.random()*array.legth)
 
- console.log(aleatorio)
-   return(array[aleatorio])
+// console.log(aleatorio)
+
+
+// al
+
+// var resultado = array[aleatorio]
+  return(array[Math.floor(Math.random()*array.length)])
 }
 
 
