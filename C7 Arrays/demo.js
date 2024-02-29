@@ -122,4 +122,14 @@ var array = [
 
 
 
+
+
+
 console.log(array[Math.floor(Math.random()*array.length)])
+
+
+// MAP
+var numeros = [ 1, 2, 3, 4 ];
+var masUno = numeros.map( (num,i) => { return num * i } );
+
+console.log(masUno);
