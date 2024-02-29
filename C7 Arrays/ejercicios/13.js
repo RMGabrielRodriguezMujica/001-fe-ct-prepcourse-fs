@@ -15,6 +15,7 @@ function filtrarNumerosPares(array) {
 
 
   var arraySoloConPares = array.filter((elemento => elemento % 2 === 0))
+  console.log(arraySoloConPares)
 
   return(arraySoloConPares)
 }
