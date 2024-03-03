@@ -133,3 +133,24 @@ var numeros = [ 1, 2, 3, 4 ];
 var masUno = numeros.map( (num,i) => { return num * i } );
 
 console.log(masUno);
+
+
+
+const tabla = [];
+for (let i = 0; ; i ++) {
+
+    const resultado = 6 * i ;
+    tabla.push(resultado);
+}
+console.log(tabla)
+
+
+
+var arrayN = []
+
+  for (let i = 1; i < array.length; i++) {
+    arrayN.push[i]
+    
+  }
+
+  console.log[arrayN]

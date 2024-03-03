@@ -5,6 +5,23 @@ function continueStatement(num) {
   // se continúa con la siguiente iteración.
   // PISTA: Utiliza el statement 'continue'.
   // Tu código:
+
+
+  var arrayR = []
+  var aRetornar = num
+
+  for (let index = 0; index < 10; index++) {
+    if (index == 5) {
+    continue;
+  }
+
+  aRetornar = aRetornar + 2
+  arrayR.push(aRetornar)
+}
+
+console.log(arrayR)
+return(arrayR)
+
 }
 
 module.exports = continueStatement;
