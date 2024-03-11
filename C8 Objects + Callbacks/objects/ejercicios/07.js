@@ -9,8 +9,7 @@ function sort(sortBy, list) {
    // Tu código:
 
 
-   conso le.log(sortBy)
-   console.log(list)
+  
 }
 
 module.exports = sort;
