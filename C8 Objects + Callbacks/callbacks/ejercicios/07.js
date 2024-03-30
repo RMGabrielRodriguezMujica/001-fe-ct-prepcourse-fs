@@ -3,9 +3,9 @@ function filter(arrayOfStrings) {
    // Luego retorna un nuevo arreglo con estos elementos.
    // Tu código:
 
-   const arraySinA = arrayOfStrings.filter((elemento) => elemento.startsWith('a'));
-   console.log(arraySinA)
-   return(arraySinA)
+   const arrayConA = arrayOfStrings.filter((elemento) => elemento.startsWith('a'));
+   console.log(arrayConA)
+   return(arrayConA)
 }
 
 module.exports = filter;

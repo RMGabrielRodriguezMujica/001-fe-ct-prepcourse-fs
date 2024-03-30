@@ -20,11 +20,20 @@ function agregarMetodoCalculoDescuento(objetoProducto) {
   // }
 
   objetoProducto.calcularPrecioDescuento = function () {
-    var descuento = objetoProducto.precio * objetoProducto.porcentajeDeDescuento;
-    var precioFinal = objetoProducto.precio - descuento;
-    return precioFinal;
-  };
+    var descuento = objetoProducto.precio - (objetoProducto.precio * objetoProducto.porcentajeDeDescuento);
 
+    // objetoproducto.Descuento = descuento;
+    // var precioFinal =  descuento
+    // objetoproducto.Descuento = precioFinal;
+
+
+
+
+    
+    return descuento;
+}  ;
+
+  return objetoProducto
 }
 
 module.exports = agregarMetodoCalculoDescuento;

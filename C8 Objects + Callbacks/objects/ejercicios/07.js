@@ -8,8 +8,25 @@ function sort(sortBy, list) {
    // retorna --> [{ a: 3, b: 2 }, { a: 2, b: 40 }, { a: 1, b: 3 }]
    // Tu código:
 
+for (let i = 0; i < list.length - 1; i++) {
+   //console.log(list[i][sortBy])  
+   
+   if(list[i][sortBy] < list[i+1][sortBy]){
 
+      var temp = list[i+1]
+      list[i+1] = list[i]
+      list[i] = temp
+   }
   
 }
+console.log(list)
+console.log("a") 
+
+return list
+}
+
+
+
+//sort("a", [{ a: 1, b: 3 }, { a: 3, b: 2 }, { a: 2, b: 40 }])
 
 module.exports = sort;
